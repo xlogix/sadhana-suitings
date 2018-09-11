@@ -47,13 +47,13 @@ body {
 }
 
 a {
-  color: #52D681;
+  color: #ff0000;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
 a:hover, a:active, a:focus {
-  color: #52D681;
+  color: #ff0000;
   outline: none;
   text-decoration: none;
 }
@@ -71,17 +71,17 @@ h1, h2, h3, h4, h5, h6, figure {
 
 ::-webkit-selection {
   color: #fff;
-  background: #52D681;
+  background: #ff0000;
 }
 
 ::-moz-selection {
   color: #fff;
-  background: #52D681;
+  background: #ff0000;
 }
 
 ::selection {
   color: #fff;
-  background: #52D681;
+  background: #ff0000;
 }
 
 .gtco-container {
@@ -116,7 +116,7 @@ h1, h2, h3, h4, h5, h6, figure {
   font-weight: bold;
 }
 .gtco-nav #gtco-logo a {
-  color: #000;
+  color: #ff0000;
 }
 .gtco-nav #gtco-logo em {
   color: #fff;
