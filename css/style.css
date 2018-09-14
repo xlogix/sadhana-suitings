@@ -1615,9 +1615,9 @@ blockquote p > cite {
   box-shadow: inset -27px -181px 151px -121px rgba(0, 0, 0, 0.75);
 }
 .owl-carousel-fullwidth .item > a .slider-copy {
-  position: absolute;
-  bottom: 10px;
-  left: 20px;
+  position: relative;
+  bottom: 320px;
+  left: 100px;
   right: 20px;
   z-index: 10;
 }
