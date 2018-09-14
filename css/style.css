@@ -11,11 +11,11 @@
 *
 * ======================================================= */
 body {
-  font-family: "Merriweather", serif;
+  font-family: "Montserrat", serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
-  color: #777;
+  color: #fff;
   background: #fff;
 }
 
@@ -47,13 +47,13 @@ body {
 }
 
 a {
-  color: #ff0000;
+  color: #fff;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
 a:hover, a:active, a:focus {
-  color: #ff0000;
+  color: #000;
   outline: none;
   text-decoration: none;
 }
@@ -63,25 +63,25 @@ p {
 }
 
 h1, h2, h3, h4, h5, h6, figure {
-  color: #000;
+  color: #e2e2e2;
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   margin: 0 0 20px 0;
 }
 
 ::-webkit-selection {
-  color: #fff;
-  background: #ff0000;
+  color: #000;
+  background: #fff;
 }
 
 ::-moz-selection {
-  color: #fff;
-  background: #ff0000;
+  color: #000;
+  background: #fff;
 }
 
 ::selection {
-  color: #fff;
-  background: #ff0000;
+  color: #000;
+  background: #fff;
 }
 
 .gtco-container {
@@ -116,7 +116,7 @@ h1, h2, h3, h4, h5, h6, figure {
   font-weight: bold;
 }
 .gtco-nav #gtco-logo a {
-  color: #ff0000;
+  color: #e21f25;
 }
 .gtco-nav #gtco-logo em {
   color: #fff;
@@ -444,7 +444,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 #gtco-footer {
-  background: #262626;
+  background: #e21f25;
   padding: 7em 0 0 0 !important;
   margin-bottom: 0 !important;
   width: 100%;
@@ -865,13 +865,13 @@ form label {
   font-size: 40px;
   margin-bottom: 10px;
   line-height: 1.5;
-  color: #4d4d4d;
+  color: #e21f25;
   font-weight: 300;
 }
 .gtco-heading p {
   font-size: 18px;
   line-height: 1.7;
-  color: #898989;
+  color: #000000;
 }
 
 blockquote {

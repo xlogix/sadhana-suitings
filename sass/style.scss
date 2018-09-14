@@ -12,7 +12,6 @@ $brand-special: #52D681;
 
 $brand-white: #fff;
 $brand-black: #000;
-$brand-red: #ff0000;
 $brand-darker: #444;
 $brand-gray: #ccc;
 $brand-lighter: #e9e9e9;
@@ -109,8 +108,8 @@ body {
 	font-size: 14px;
 	line-height: 1.7;
 
-	color: #777;
-	background: #fff;
+	color: #fff;
+	background: #000;
 }
 #page {
 	position: relative;
@@ -137,7 +136,7 @@ body {
 	}
 }
 a {
-	color: $brand-red !important;
+	color: $brand-black !important;
 	@include transition(.5s);
 	&:hover, &:active, &:focus {
 		color: $brand-primary;
@@ -197,7 +196,7 @@ h1, h2, h3, h4, h5, h6, figure {
 		text-transform: uppercase;
 		font-weight: bold;
 		a {
-			color: $brand-red;
+			color: $brand-black;
 		}
 		em {
 			color: $brand-white;
@@ -506,7 +505,7 @@ h1, h2, h3, h4, h5, h6, figure {
 	}
 }
 #gtco-footer {
-	background: lighten($brand-red, 15%);
+	background: lighten($brand-black, 15%);
 	padding: 7em 0 0 0!important;	
 	margin-bottom: 0!important;
 	width: 100%;
@@ -543,7 +542,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
 	.gtco-footer-link {
 		h3 {
-			color: $brand-red;
+			color: $brand-black;
 			margin-bottom: 10px;
 		}
 		padding-left: 30px;
@@ -554,7 +553,7 @@ h1, h2, h3, h4, h5, h6, figure {
 			padding: 0;
 			margin: 0;
 			li {
-				color: $brand-red;
+				color: $brand-black;
 				padding: 0;
 				margin: 0;
 				list-style: none;
@@ -1390,9 +1389,6 @@ blockquote {
 	}
 }
 
-
-
-
 .gtco-nav {
 	.gtco-contact {
 		@media screen and (max-width :$screen-sm) {
@@ -1538,7 +1534,6 @@ blockquote {
 		}
 	}
 }
-
 
 .gtco-more {
 	font-family: $font-primary;
