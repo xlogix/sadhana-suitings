@@ -1276,14 +1276,14 @@ blockquote p > cite {
 }
 
 .btn-special {
-  background: #52D681;
-  color: #2f9051;
-  border: 2px solid #52D681;
+  background: #e21f25;
+  color: #fff;
+  border: 2px solid #fff;
 }
 .btn-special:hover, .btn-special:focus, .btn-special:active {
   color: #fff;
-  background: #52D681;
-  border-color: #52D681;
+  background: #000;
+  border-color: #e21f25;
 }
 .btn-special.btn-outline {
   color: #fff;
@@ -1291,8 +1291,8 @@ blockquote p > cite {
 }
 .btn-special.btn-outline:hover, .btn-special.btn-outline:focus, .btn-special.btn-outline:active {
   background: #fff;
-  color: #2f9051;
-  border: 2px solid #52D681;
+  color: #e21f25;
+  border: 2px solid #fff;
 }
 
 .btn-outline {
@@ -1616,8 +1616,8 @@ blockquote p > cite {
 }
 .owl-carousel-fullwidth .item > a .slider-copy {
   position: relative;
-  bottom: 320px;
-  left: 100px;
+  bottom: 552px;
+  left: 60px;
   right: 20px;
   z-index: 10;
 }
