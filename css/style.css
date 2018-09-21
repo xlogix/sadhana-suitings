@@ -146,13 +146,13 @@ h1, h2, h3, h4, h5, h6, figure {
 .gtco-nav ul li a {
   font-size: 16px;
   padding: 30px 10px;
-  color: #cccccc;
+  color: #000;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
 .gtco-nav ul li a:hover, .gtco-nav ul li a:focus, .gtco-nav ul li a:active {
-  color: #000;
+  color: #e21f25;
 }
 .gtco-nav ul li.has-dropdown {
   position: relative;
@@ -178,7 +178,7 @@ h1, h2, h3, h4, h5, h6, figure {
   top: 50%;
   margin-top: -7px;
   right: 0;
-  color: #ccc;
+  color: #e21f25;
 }
 .gtco-nav ul li.has-dropdown .dropdown {
   width: 130px;
@@ -192,7 +192,7 @@ h1, h2, h3, h4, h5, h6, figure {
   top: 40px;
   left: 0;
   text-align: left;
-  background: #000;
+  background: #e21f25;
   padding: 20px;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
@@ -225,19 +225,19 @@ h1, h2, h3, h4, h5, h6, figure {
 .gtco-nav ul li.has-dropdown .dropdown li a {
   padding: 2px 0;
   display: block;
-  color: #999999;
+  color: #fff;
   line-height: 1.2;
   text-transform: none;
   font-size: 15px;
 }
 .gtco-nav ul li.has-dropdown .dropdown li a:hover {
-  color: #fff;
+  color: #000;
 }
 .gtco-nav ul li.has-dropdown .dropdown li.active > a {
-  color: #000 !important;
+  color: #fff !important;
 }
 .gtco-nav ul li.has-dropdown:hover a, .gtco-nav ul li.has-dropdown:focus a {
-  color: #000;
+  color: #e21f25;
 }
 .gtco-nav ul li.btn-cta a {
   color: #52D681;
@@ -1621,10 +1621,11 @@ blockquote p > cite {
   right: 20px;
   z-index: 10;
 }
-.owl-carousel-fullwidth .item > a .slider-copy h2 {
+.owl-carousel-fullwidth .item > a .slider-copy h1 {
   color: #fff;
   font-size: 24px;
   font-weight: 100;
+  background: #000000;
 }
 
 .owl-theme .owl-dots .owl-dot span {
