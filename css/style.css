@@ -1616,17 +1616,25 @@ blockquote p > cite {
 }
 .owl-carousel-fullwidth .item > a .slider-copy {
   position: relative;
-  bottom: 552px;
+  bottom: 500px;
   left: 60px;
   right: 20px;
   z-index: 10;
 }
 .owl-carousel-fullwidth .item > a .slider-copy h1 {
-  color: #fff;
-  font-size: 24px;
+  color: #e21f25;
+  font-size: 36px;
   font-weight: 100;
+  font-size-adjust: inherit;
+  background-color: #cccccc;
 }
-
+.owl-carousel-fullwidth .item > a .slider-copy h2 {
+  color: #e21f25;
+  font-size: 36px;
+  font-weight: 100;
+  font-size-adjust: inherit;
+  background-color: #cccccc;
+}
 .owl-theme .owl-dots .owl-dot span {
   width: 10px;
   height: 10px;
