@@ -166,7 +166,6 @@
 	display: none;
 }
 
-
 /* youtube/vimeo buttons */
 #wowslider-container1 .ws_video_btn {
 	position: absolute;
@@ -252,8 +251,6 @@
 	background: #b5270e;
 }
 
-
-
 /* Play / Pause */
 #wowslider-container1 .ws_playpause {
 	position:absolute;
@@ -287,8 +284,6 @@ _:-ms-input-placeholder, :root #wowslider-container1 a.ws_playpause > span:befor
 #wowslider-container1 .ws_pause > span:before {
 	content:"\e801";
 }
-
-
 
 /* arrows */
 #wowslider-container1 a.ws_next,
@@ -371,8 +366,6 @@ _:-ms-input-placeholder, :root #wowslider-container1 a.ws_prev > span:before {li
   -webkit-transition: 300ms padding ease, 300ms margin-top ease;
   transition: 300ms padding ease, 300ms margin-top ease;
 }
-
-
 
 #wowslider-container1 a.ws_prev img,
 #wowslider-container1 a.ws_next img {
