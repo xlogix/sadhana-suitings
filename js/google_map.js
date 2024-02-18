@@ -28,7 +28,7 @@ function init() {
     var addresses = ['Rajasthan'];
 
     for (var x = 0; x < addresses.length; x++) {
-        $.getJSON("https://maps.googleapis.com/maps/api/geocode/json?address="+addresses[x]+"&key=AIzaSyBYtfViZIfK-tXxljlnOoQ1PYRRAUclS7k", null, function (data) {
+        $.getJSON("https://maps.googleapis.com/maps/api/geocode/json?address="+addresses[x]+"&key=AIzaSyApUELernn7mj6_l2XfVkAfcNCoDpDyagA", null, function (data) {
             var latlng = new google.maps.LatLng(25.321377, 74.5847643);
             new google.maps.Marker({
                 position: latlng,
